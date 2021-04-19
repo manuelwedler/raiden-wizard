@@ -16,10 +16,10 @@ function showRamp() {
     hostAppName: "Raiden Wizard",
     hostLogoUrl:
       "https://raw.githubusercontent.com/raiden-network/raiden-wizard/develop/resources/static/images/raiden_logo_black.svg",
-    hostApiKey: RAMP_API_KEY,
     swapAmount: ETHEREUM_REQUIRED_AMOUNT.toString(),
     swapAsset: "ETH",
     userAddress: TARGET_ADDRESS,
+    url: 'https://ri-widget-staging.firebaseapp.com/',
   });
 
   const purchaseCreatedCallback = (event) => {

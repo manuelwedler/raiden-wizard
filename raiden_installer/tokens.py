@@ -189,6 +189,7 @@ _DAI = TokenData(
     addresses={
         "mainnet": "0x6b175474e89094c44da98b954eedeac495271d0f",
         "kovan": "0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa",
+        "rinkeby": "0xc3dbf84Abb494ce5199D5d4D815b10EC29529ff8"
     },
 )
 
@@ -239,7 +240,8 @@ class TokensV36(Enum):
 class TokensV37(Enum):
     RDN = replace(
         _RDN,
-        addresses={"mainnet": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6"},
+        addresses={"mainnet": "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6",
+                   "rinkeby": "0x2488c9445b405e0fbbd60e89813f8b8652973737", },
     )
     SVT = TokenData(
         ticker="SVT",

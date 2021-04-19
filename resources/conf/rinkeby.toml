@@ -1,0 +1,17 @@
+network = "rinkeby"
+client_release_channel = "mainnet"
+client_release_version = "v1.1.1"
+services_version = "rinkeby"
+ethereum_amount_required = 5e15
+ethereum_amount_required_after_swap = 2e14
+routing_mode = "local"
+
+[service_token]
+ticker = "RDN"
+amount_required = 6e18
+swap_amount = 10e18
+
+[transfer_token]
+ticker = "DAI"
+amount_required = 2e18
+swap_amount = 3e18

@@ -99,7 +99,7 @@
     const CONFIGURATION_DETAIL_URL = 
       "{{ reverse_url('api-configuration-detail', configuration_file.file_name) }}";
     const SWAP_URL = 
-      {% if network.name == 'mainnet' %}
+      {% if network.name == 'rinkeby' %}
         "{{ reverse_url('swap', configuration_file.file_name, 'RDN') }}";
       {% else %}
         "";

@@ -38,7 +38,7 @@ from raiden_installer.transactions import (
 )
 from raiden_installer.utils import TransactionTimeoutError, wait_for_transaction
 
-SETTINGS = "mainnet"
+SETTINGS = "rinkeby"
 
 NETWORKS_WITH_TOKEN_SWAP = [Network.get_by_name(n) for n in ["mainnet", "goerli"]]
 

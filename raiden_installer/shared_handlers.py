@@ -249,7 +249,7 @@ class BaseRequestHandler(RequestHandler):
 
 class IndexHandler(BaseRequestHandler):
     def get(self):
-        if not self.installer_settings.network == "mainnet":
+        if not self.installer_settings.network == "rinkeby":
             try:
                 configuration_file = RaidenConfigurationFile.get_available_configurations(
                     self.installer_settings
